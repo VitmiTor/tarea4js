@@ -8,9 +8,9 @@ const ordenArray = (listVideoGames) => {
       if (
         listVideoGames.juegos[j].nombre > listVideoGames.juegos[j + 1].nombre
       ) {
-        let temp = listVideoGames.juegos[j].nombre;
-        listVideoGames.juegos[j].nombre = listVideoGames.juegos[j + 1].nombre;
-        listVideoGames.juegos[j].nombre = temp;
+        let temp = listVideoGames.juegos[j];
+        listVideoGames.juegos[j] = listVideoGames.juegos[j + 1];
+        listVideoGames.juegos[j + 1] = temp;
       }
     }
   }
@@ -19,9 +19,12 @@ const ordenArray = (listVideoGames) => {
 const imprimirResultado = (listaJson, nombre, direccion) => {
   console.log(nombre);
   console.log(direccion);
-  for (let i = 0; i < listaJson.length; i++) {
+
+  for (let i = 0; i < listaJson.juegos.length; i++) {
     console.log(
-      `El juego ${listaJson[i].nombre} y tiene el precio de ${listaJson[i].precio} `
+      listaJson.juegos[i].nombre +
+        " y el precio es: " +
+        listaJson.juegos[i].precio
     );
   }
 };
