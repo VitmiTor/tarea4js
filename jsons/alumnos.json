@@ -1,0 +1,158 @@
+{
+    "nombre": "LOS INDULTADOS",
+    "profesor": "RODRIGO CACERES",
+    "alumnos": [
+        {
+            "nombre": "OMAR",
+            "apellido": "TOLOSA",
+            "nota": 18,
+            "peso": 84.49,
+            "esPeruano": true,
+            "seccion": "B"
+        },
+        {
+            "nombre": "ROSALVA",
+            "apellido": "COROMINAS",
+            "nota": 16,
+            "peso": 64.55,
+            "esPeruano": true,
+            "seccion": "C"
+        },
+        {
+            "nombre": "SELENA",
+            "apellido": "ARNAIZ",
+            "nota": 9,
+            "peso": 82.223,
+            "esPeruano": true,
+            "seccion": "C"
+        },
+        {
+            "nombre": "OFELIA",
+            "apellido": "CABEZAS",
+            "nota": 19,
+            "peso": 81.074,
+            "esPeruano": false,
+            "seccion": "B"
+        },
+        {
+            "nombre": "LOLA",
+            "apellido": "SALCEDO",
+            "nota": 19,
+            "peso": 70.277,
+            "esPeruano": true,
+            "seccion": "A"
+        },
+        {
+            "nombre": "EMELINA",
+            "apellido": "VAQUERO",
+            "nota": 12,
+            "peso": 64.906,
+            "esPeruano": false,
+            "seccion": "A"
+        },
+        {
+            "nombre": "LORENZO",
+            "apellido": "REYES",
+            "nota": 19,
+            "peso": 73.243,
+            "esPeruano": false,
+            "seccion": "A"
+        },
+        {
+            "nombre": "MONICA",
+            "apellido": "GALLO",
+            "nota": 20,
+            "peso": 68.64,
+            "esPeruano": true,
+            "seccion": "A"
+        },
+        {
+            "nombre": "AUREA",
+            "apellido": "VICENS",
+            "nota": 19,
+            "peso": 75.979,
+            "esPeruano": true,
+            "seccion": "B"
+        },
+        {
+            "nombre": "ELBA",
+            "apellido": "SEVILLANO",
+            "nota": 17,
+            "peso": 82.215,
+            "esPeruano": false,
+            "seccion": "B"
+        },
+        {
+            "nombre": "DUILIO",
+            "apellido": "ARIZA",
+            "nota": 9,
+            "peso": 74.043,
+            "esPeruano": false,
+            "seccion": "B"
+        },
+        {
+            "nombre": "RITA",
+            "apellido": "DE VERDU",
+            "nota": 15,
+            "peso": 76.878,
+            "esPeruano": false,
+            "seccion": "C"
+        },
+        {
+            "nombre": "JOSE ANGEL",
+            "apellido": "UGARTE",
+            "nota": 14,
+            "peso": 65.864,
+            "esPeruano": true,
+            "seccion": "A"
+        },
+        {
+            "nombre": "MARIELA",
+            "apellido": "LUCENA",
+            "nota": 16,
+            "peso": 63.141,
+            "esPeruano": false,
+            "seccion": "A"
+        },
+        {
+            "nombre": "EVANGELINA",
+            "apellido": "HUERTAS",
+            "nota": 20,
+            "peso": 79.908,
+            "esPeruano": false,
+            "seccion": "B"
+        },
+        {
+            "nombre": "LAURA",
+            "apellido": "BAEZA",
+            "nota": 14,
+            "peso": 80.407,
+            "esPeruano": false,
+            "seccion": "A"
+        },
+        {
+            "nombre": "LISANDO",
+            "apellido": "CASAL",
+            "nota": 20,
+            "peso": 82.003,
+            "esPeruano": false,
+            "seccion": "C"
+        },
+        {
+            "nombre": "FLOR",
+            "apellido": "GARAY",
+            "nota": 19,
+            "peso": 69.336,
+            "esPeruano": false,
+            "seccion": "B"
+        },
+        {
+            "nombre": "RODRIGO",
+            "apellido": "ECHEVARRIA",
+            "nota": 12,
+            "peso": 73.979,
+            "esPeruano": true,
+            "seccion": "B"
+        }
+    ]
+}

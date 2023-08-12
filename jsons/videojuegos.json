@@ -1,0 +1,78 @@
+{
+    "tienda": "CALVARIO GAMER",
+    "direccion": "AVENIDA MUSHRROM KINGDOM 666",
+    "juegos": [
+        {
+            "nombre": "BLUE PROTOCOL",
+            "precio": 171.11
+        },
+        {
+            "nombre": "STAR CITIZEN",
+            "precio": 721.64
+        },
+        {
+            "nombre": "DEAD ISLAND 2",
+            "precio": 623.12
+        },
+        {
+            "nombre": "THE LEGEND OF ZELDA",
+            "precio": 10.23
+        },
+        {
+            "nombre": "METROID PRIME 4",
+            "precio": 660.32
+        },
+        {
+            "nombre": "BLUE PROTOCOL",
+            "precio": 173.21
+        },
+        {
+            "nombre": "GRANBLUE FANTASY: RELINK",
+            "precio": 273.54
+        },
+        {
+            "nombre": "HOGWARTS LEGACY",
+            "precio": 413.31
+        },
+        {
+            "nombre": "HOLLOW KNIGHT: SILKSONG",
+            "precio": 167.32
+        },
+        {
+            "nombre": "GOD OF WAR: RAGNAROK",
+            "precio": 200.21
+        },
+        {
+            "nombre": "ELDEN RING",
+            "precio": 378.75
+        },
+        {
+            "nombre": "GRAND THEFT AUTO V",
+            "precio": 406.46
+        },
+        {
+            "nombre": "THE CALLISTO PROTOCOL",
+            "precio": 161.1
+        },
+        {
+            "nombre": "THE WITCHER 3: WILD HUNT",
+            "precio": 5.99
+        },
+        {
+            "nombre": "ASSASSIN'S CREED VALHALLA",
+            "precio": 59.99
+        },
+        {
+            "nombre": "HIGH ON LIFE",
+            "precio": 201.32
+        },
+        {
+            "nombre": "MARIO BROS",
+            "precio": 999.99
+        },
+        {
+            "nombre": "VALHEIM",
+            "precio": 1.5
+        }
+    ]
+}
