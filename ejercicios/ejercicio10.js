@@ -1,6 +1,5 @@
 "use strict";
 
-const { escapeHtml } = require("@vue/shared");
 const arrayPosiblesCapicuas = require("../jsons/listaPosiblesCapicua.json");
 
 const invertirArray = (arrayCapicuas) => {
@@ -8,7 +7,7 @@ const invertirArray = (arrayCapicuas) => {
 
   for (let i = 0; i < arrayCapicuas.length; i++) {
     let aux = arrayCapicuas[i];
-    let residuo = 0;
+    const residuo = 0;
     let inverso = 0;
     while (aux != 0) {
       residuo = aux % 10;
@@ -19,12 +18,15 @@ const invertirArray = (arrayCapicuas) => {
   }
   return arrayInverso;
 };
+
 const esCapicua = (arrayPosiblesCapicuas, arrayInverso) => {
   let capicua = true;
   for (let i = 0; i < arrayPosiblesCapicuas.length; i++) {
-    capicua = arrayPosiblesCapicuas[i] === arrayInverso[i];
+    if (arrayPosiblesCapicuas[i] !== arrayInverso[i]) {
+      return false;
+    }
   }
-  return capicua;
+  return true;
 };
 
 const imprimirMensaje = (esCapicua) => {

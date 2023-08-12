@@ -8,7 +8,7 @@ const verificarCondiciones = (nombre, apellido1, apellido2) => {
 
   const ar = apellido2.includes("AR");
 
-  const iniciaD = nombre.substring(0, 1) === "D";
+  const iniciaD = nombre.charAt(0) === "D";
 
   return iniciaD && caracteres && ar;
 };

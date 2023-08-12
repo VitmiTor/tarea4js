@@ -16,10 +16,9 @@ const ordenArray = (listVideoGames) => {
   }
 };
 
-const imprimirResultado = (listaJson, nombre, direccion) => {
-  console.log(nombre);
-  console.log(direccion);
-
+const imprimirResultado = (listaJson) => {
+  console.log(listaJson.tienda);
+  console.log(listaJson.direccion);
   for (let i = 0; i < listaJson.juegos.length; i++) {
     console.log(
       listaJson.juegos[i].nombre +

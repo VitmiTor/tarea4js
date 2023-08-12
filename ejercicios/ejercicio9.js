@@ -1,6 +1,7 @@
 "use strict ";
 
 const arrayNumbers = require("../jsons/numbersString.json");
+
 const rellenarArrays = (arrayStrings, arrayNumero, arrayPeso) => {
   for (let i = 0; i < arrayStrings.length; i++) {
     const numero = arrayStrings[i].split(";");
