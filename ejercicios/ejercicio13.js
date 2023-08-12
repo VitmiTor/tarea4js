@@ -8,7 +8,7 @@ const ordenArray = (listVideoGames) => {
       if (
         listVideoGames.juegos[j].nombre > listVideoGames.juegos[j + 1].nombre
       ) {
-        let temp = listVideoGames.juegos[j];
+        const temp = listVideoGames.juegos[j];
         listVideoGames.juegos[j] = listVideoGames.juegos[j + 1];
         listVideoGames.juegos[j + 1] = temp;
       }
@@ -29,8 +29,4 @@ const imprimirResultado = (listaJson) => {
 };
 
 ordenArray(listVideoGames);
-imprimirResultado(
-  listVideoGames,
-  "CALVARIO GAMER",
-  "AVENIDA MUSHRROM KINGDOM 666"
-);
+imprimirResultado(listVideoGames);
